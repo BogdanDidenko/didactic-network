@@ -1,0 +1,1 @@
+docker  run --name "keras" --rm -v `pwd`:'/main' -w '/main' -d -p 8888:8888 keras-jupyter jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
